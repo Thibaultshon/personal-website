@@ -1,0 +1,57 @@
+{
+
+  "projects": [
+    "Here is a list of my projects. Some of them have links to their source code (generally the most recent ones), along with images and descriptions of the process.",
+
+    "For some background: I first started programming in Scratch (yes, that Scratch), in primary school, then carried on through secondary school.",
+
+    "It has its limitations, but the fact that all the code you need is provided as visual blocks stops you focusing on the syntactic sugar and shifts your attention to the implementation and features. Even with those 'limitations', people have been able to create impressive game engines and programs that still thoroughly impress me.",
+
+    "Throughout the rest of secondary school, we mostly used Python. We tried some web-dev, i.e., HTML, CSS and JavaScript, but this was never in depth. Even the Python we did at school was limited to basic programs and algorithms, the sort of things you might cover the first week of a programming course (a lot of sorting algorithms and basic while loops).",
+    
+    "Outside school, I did quite a few projects, but without knowledge of coding practices or writing maintainable code, I produced a lot of difficult to read code (these were probably the most challenging projects to work on).",
+
+    "University was where I came across the most languages: Java, C, Haskell, Prolog, and some more JavaScript and SQL. While it was fun being exposed to a wider range of paradigms, and while I enjoyed all of them (I don't have strong language dislikes), there was something missing from them.",
+
+    "I had always been enchanted by the tales of its forgotten spells, and eager to dive into its extensive metaprogramming features. Common Lisp was one of the most rewarding language to dive into outside university, and I still have lots to learn."
+  ],
+
+  
+  "home":["Welcome to the website, traveler/netizen/web crawler. You must be weary. Fret not, all you need to do to continue this wondrous conversation with me is to click that big purple triangular button to the side -> It doesn't bite, go on...",
+          
+          "There we go... and again! ->",
+          
+          "You must be thirsty as well. Have a drink. Don’t worry, I’ll still be here." ,
+          
+          "Another thing I forgot to tell you: once you click the button, you can't rewind. How dull a story would it be if you could just rewind after every mistake! If you want to go back, you must complete the story, first.  Then we can continue our conversation anew from the beginning.",
+          
+
+          "I am afraid I must bid my departure. A terrible calamity has occurred yonder. Farewell, but remember: you can't go back in time, you must follow the rhyme. Then, start the tale from the beginning with a new, enriched mind."
+    
+
+         ],
+
+
+
+  "pictures":["I can't remember a holiday without trying to take films or photos.",
+              
+              "I don't have the art skills to paint pretty landscapes, nor the camera knowledge to make use of a professional camera and setup (even if I were to invest in one).",
+
+              "Heck, I don't think I am even that interested in photography. If I were, I wouldn't still be this clueless. It’s more of an innate desire to preserve a moment that captures my eye.",
+
+              "In a world where we are increasingly detached from what we can't control in our daily lives, it  almost feels natural to want to hold on to these grander things for a little longer.",
+
+              "The smartphone camera provides this opportunity to the layman in a way unheard of any other time period.",
+              
+              "However, even a layman becomes unsatisfied with their lack of influence on the final product. You are not only at the whim of nature, but also a servant of man's creation. That is why I have started to change this fate.",
+
+              "I have been going back over art fundamentals, learning things like figure drawing, and perhaps at some point will learn the theory, lighting, and composition behind photography.",
+
+              "It starts to ground you in this chaos. You are not containing yourself, but you know what to look for and what to think. You are now starting to create your own moments that capture your eye.",
+
+              "Is this any better? I don't know. I am not at that stage yet where I have to think about it.",
+              "My fundamentals are still very rocky, so I am still here relying on the humble smartphone camera, unaware of the intricacies of what it is doing. At the moment, I am just having fun taking photos whenever I explore somewhere."
+              ]
+
+
+}

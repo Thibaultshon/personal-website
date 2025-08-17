@@ -22,7 +22,7 @@
     (:title "Majtron - 3D arena shooter "
      :date "[2024-2025]"
      :tools ("Common Lisp" "OpenGL" "GLSL")
-     :url "" :img"images/gameEX1.JPG" :tag "/projects/majtron")
+     :url "" :img"images/gameEx1.JPG" :tag "/projects/majtron")
     
     (:title"Cletra - Classic tetris clone"
      :date "[2024]"
@@ -42,7 +42,7 @@
     (:title "Puzzle Droid - puzzle game/messaging app"
      :date "[2021-2022]"
      :tools ("Python" "Pygame" "SQL")
-     :url "" :img"images/puyoclone.jpg" :tag "/projects/puzzleDroid")
+     :url "" :img"images/puyoclone.JPG" :tag "/projects/puzzleDroid")
     
     (:title "Not Puyo - puyo puyo clone"
      :date "[2020-2021]"

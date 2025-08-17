@@ -220,7 +220,7 @@
                 (what-is-puyo-puyo))
 
           (:div :class "img-container"                                         
-                (:img  :src "/images/puyoclone3.JPG" :style " max-height: 300px;")   
+                (:img  :src "/images/puyoclone3.jpg" :style " max-height: 300px;")   
                 (:img  :src "/images/puyoclone3ex.JPG" :style " max-height: 300px;")
                 (:img  :src "/images/puyocloneEx2.JPG" :style " max-height: 300px;") 
                 (:img  :src "/images/puyocloneEx4.JPG" :style " max-height: 300px;"))
@@ -279,7 +279,7 @@
   (with-base-layout (:title "Projects | ScratchGames"  :style (append *css-projects-description* *css-home*))
     (:div 
      (:h2 "Scratch Games" ))      
-    (:img  :src "/images/Scratch.JPG" :style " max-height: 300px;")
+    (:img  :src "/images/scratch.JPG" :style " max-height: 300px;")
 
     (:a :class "github-container"                 
         :href "https://scratch.mit.edu/users/Thibaultshon/" "Scratch (link to source code)"   
@@ -299,7 +299,7 @@
   (with-base-layout (:title "Projects | Majtron"  :style (append *css-projects-description* *css-home*))
     (:div 
      (:h2 :style (format nil "color: ~a;" *main-colour-purple*) "Majtron - 3D arena shooter" ))
-    (:img  :src "/images/gameEX1.JPG" :style "width: 400px; height: 300px;")
+    (:img  :src "/images/gameEx1.JPG" :style "width: 400px; height: 300px;")
     (github-link "https://github.com/Thibaultshon/Majtron" )
 
     (:div :class "project-description"
@@ -334,10 +334,10 @@
                 (:p "The actual game was going to be in Common lisp not C, so I tried to familiarize myself with the Common Lisp equivalent libraries and syntax I would need to use. Again, This is programming, so I decided to test if it was viable with yet another game, a Tetris clone."(:br)"This time I somewhat completed it. This was a little more challenging than I expected because of the overall lack of documenation, but this required me to dig deep into a few of the library source code to try and understand ambiguities"))
 
           (:div :class "img-container"                                          
-                (:img  :src "/images/gameEx12.PNG" :style " max-height: 300px;")
-                (:img  :src "/images/gameEx11.PNG" :style " max-height: 300px;")
-                (:img  :src "/images/gameEx10.PNG" :style " max-height: 300px;")
-                (:img  :src "/images/gameEx9.PNG" :style " max-height: 300px;"))
+                (:img  :src "/images/gameEx12.png" :style " max-height: 300px;")
+                (:img  :src "/images/gameEx11.png" :style " max-height: 300px;")
+                (:img  :src "/images/gameEx10.png" :style " max-height: 300px;")
+                (:img  :src "/images/gameEx9.png" :style " max-height: 300px;"))
 
 
           
@@ -389,7 +389,7 @@
           (:div :class "img-container"                                          
 
                 (:img  :src "/images/gameEx7.jpg" :style " max-height: 300px;")
-                (:img  :src "/images/gameEx2.JPG" :style " max-height: 300px;")))))
+                (:img  :src "/images/GameEx2.JPG" :style " max-height: 300px;")))))
 
 
 

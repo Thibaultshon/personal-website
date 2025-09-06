@@ -13,9 +13,16 @@
          (:title ,title)
          (:style
           (apply #'lass:compile-and-write ,style)))
+        ;; <!-- Google tag (gtag.js) -->
+        (:script :async t :src"https://www.googletagmanager.com/gtag/js?id=G-C735KVQHFF")
+        (:script
+         (:raw
+         " window.dataLayer   = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-C735KVQHFF');"))
         (:body
-         ,@body
-         )))))
+         ,@body)))))
 
 
 (defmacro with-base-layout((&key title style) &body body)

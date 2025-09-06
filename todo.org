@@ -1,0 +1,5 @@
+** convert imgs to WebP
+** md files for text
+** easy read mode (to make purple background white or purple background text white)
+** sidebar filter for projects (by tools, date)
+** improve text box text

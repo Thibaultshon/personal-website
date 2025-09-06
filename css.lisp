@@ -4,13 +4,17 @@
 (defparameter *css-profile* 
   `((.favourite-list-container
      :display "grid"
-     :grid-template-columns "repeat(auto-fit, minmax(400px, 1fr))"
-    :margin-bottom "10px"
-     :gap "10px")
+     :grid-template-columns "repeat(auto-fit, minmax(350px, 1fr))"
+     :margin-bottom "10px"
+     :max-width "1000px"
+     :width "100%"   
+     :row-gap "20px"
+     :column-gap "10px")
+     
     (.favourite-list
      :outline ,(format nil "4px solid ~a" *main-colour-purple*)
 
-     :width "492px"
+     :width "483px"
      :height "550px"
      )          
     (".favourite-list p"
@@ -20,7 +24,7 @@
     (.intro-container
      :margin-top "20px"
      :margin-bottom "20px"
-     :width "1000px"
+     :width "100%"
      :color "black"
      :background-color ,*main-colour-purple*
      )
@@ -41,9 +45,12 @@
     (".project"
      :width "340px" 
      :height "340px")
+     
     (".project:hover"
      :outline "solid 2px white")
     (.project-list
+     :width "100%"
+     :max-width "1000px"
      :grid-template-columns "auto auto auto"
      :display "grid"
      :gap "10px"
@@ -57,25 +64,31 @@
   `(("*"
      :font-family "Arial, Verdana, sans-serif, Arial"
      :scrollbar-color  ,*main-colour-purple* "rgba(0, 0, 0, 0);")
-    (body
+    (body   
      :background-color ,*background-colour-black*)
 
     (h4            
      :padding "0px 5px 0px 5px"
      :color ,*main-colour-purple*)
     (.main
+         :max-width "1000px"
+     :width "100%"
      :padding-bottom "150px")
     (div
+     :margin "0 auto"
      :display "flex"
      :flex-direction "column"
      :align-items "center"
      :color "white"
-     :max-width "1000px"
-     :margin "0 auto")
+     ;; :max-width "1000px"
+     )
+
     
     (.nav-bar
+     :max-width "1000px"
      :width "100%"
      :height "80px"
+     ;; :flex-wrap "wrap"
      :background-color ,*main-colour-purple*
      :border-radius "5px"
      :display "flex"
@@ -109,11 +122,15 @@
 
     
     (.purple-box
-     :width "1000px"
+
      :height "100px"
      :border  "3.5px solid #dcdcfc"
      :box-shadow "1px 0 10px 5px #dcdcfc"
      :outline ,(format nil "4px solid ~a" *main-colour-purple*)
+     :max-width "955px"
+     :width "100%"      
+     :margin-left "20px"
+     :margin-right "20px"
      :position "fixed"
      :margin-bottom "20px"
      :bottom "0")
@@ -244,6 +261,8 @@
      :background-color ,*background-colour-black*)
     (.image-container
      :display "inline-grid"
+         :max-width "1000px"
+     :width "100%"
      :grid-template-columns "repeat(auto-fit, minmax(300px, 1fr))"
      :gap "10px")
 

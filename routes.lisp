@@ -401,7 +401,7 @@
              (:h4 (string-upcase (symbol-name location)))
              (:div :class "image-container"
                    (dolist (url images)
-                     (:img :src url :alt (symbol-name location)))))))
+                     (:img :loading "lazy" :src url :alt (symbol-name location)))))))
 
 
 

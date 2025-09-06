@@ -7,7 +7,7 @@
           (:h2  "About Me")
           (:p "Hi! I am James, a recently Graduated Software Engineer based near London")
           (:p "I have experience with Common Lisp, Java, Python, C and Javascript")
-          (:p "Beyond Computer Science I Like learning languages, linguistics, literature, geopolitics, racket sports and media "))
+          (:p "Beyond Computer Science I Like learning languages, linguistics, literature, geopolitics and  racket sports "))
 
     (:div :class "favourite-list-container"
           (loop for favourite in *favourites-list*

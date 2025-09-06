@@ -10,7 +10,7 @@
      :width "100%"   
      :row-gap "20px"
      :column-gap "10px")
-     
+    
     (.favourite-list
      :outline ,(format nil "4px solid ~a" *main-colour-purple*)
 
@@ -24,10 +24,18 @@
     (.intro-container
      :margin-top "20px"
      :margin-bottom "20px"
+     :max-width "1000px"
+     :width "100%"   
+
      :width "100%"
      :color "black"
      :background-color ,*main-colour-purple*
      )
+
+    (".intro-container p"
+     :padding "0px 10px 0px 10px")
+
+
     (".intro-container h2"
      :color  "white")))
 
@@ -45,7 +53,7 @@
     (".project"
      :width "340px" 
      :height "340px")
-     
+    
     (".project:hover"
      :outline "solid 2px white")
     (.project-list
@@ -71,7 +79,7 @@
      :padding "0px 5px 0px 5px"
      :color ,*main-colour-purple*)
     (.main
-         :max-width "1000px"
+     :max-width "1000px"
      :width "100%"
      :padding-bottom "150px")
     (div
@@ -185,13 +193,13 @@
      :color ,*background-colour-black*)
 
 
-   (.purple-background-container
-    :background-color ,*main-colour-purple*
-    :color ,*background-colour-black*
-    :margin-top "10px"
-    :margin-bottom "10px"
-    ;; :border-radius "8px"
-    :padding "0px 20px 0px 20px")
+    (.purple-background-container
+     :background-color ,*main-colour-purple*
+     :color ,*background-colour-black*
+     :margin-top "10px"
+     :margin-bottom "10px"
+     ;; :border-radius "8px"
+     :padding "0px 20px 0px 20px")
 
 
     (.black-background-container
@@ -233,15 +241,18 @@
     (h2 :color , *main-colour-purple*)
     ((:or ".project-description p" ".project-description pre")
      :text-align "left"
-     ;; :font-size "18px"
+     :font-size "16px"
      :width  "100%")
 
     (".project-description li")
-     ;; :font-size "18px")
+    ;; :font-size "18px")
 
     (a
      :color ,*main-colour-purple*)
- 
+    (p
+     :font-size "16px"
+     )
+    
     (.img-container
      :padding "10px 0px 10px 0px"
      :display "flex"
@@ -251,7 +262,7 @@
      :gap "1rem"
      :max-width "1000px")
 
-     
+    
     (".img-container img"
      :max-width "492px")))
 
@@ -261,7 +272,7 @@
      :background-color ,*background-colour-black*)
     (.image-container
      :display "inline-grid"
-         :max-width "1000px"
+     :max-width "1000px"
      :width "100%"
      :grid-template-columns "repeat(auto-fit, minmax(300px, 1fr))"
      :gap "10px")

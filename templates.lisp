@@ -5,6 +5,7 @@
 
 (defmacro with-page((&key title style) &body body)
   `(spinneret:with-html-string
+     (:doctype)
      (:html
       (spinneret:with-html()
         (:head
@@ -19,14 +20,14 @@
 
 (defmacro with-base-layout((&key title style) &body body)
   `(with-page (:title ,title :style ,style)
+
      (:div :class "main" 
            (:div :class "nav-bar" 
                  (:div :class "nav-bar-left"
                        (:img :src "/images/logo2.JPG" :style "width: auto; height: 70px;")
                        (:div  :class "title-container"
                               (:p "J.T.Francis")
-                              (:p "[Software Engineer]"))
-                       )
+                              (:p "[Software Engineer]")))
                  (:div :class "title-list"
                        (loop for (web-page . loc) in *web-pages*
                              do (:a :href loc (:h3 web-page))))

@@ -82,21 +82,19 @@
      :color "white"
      :gap "40px"
      :flex-direction "row")
+    
     (.nav-bar-left
      :flex "1"
-     :display  "flex"
      :color ,*background-colour-black*
-     :flex-direction "row"
-     :justify-content "flex-start")
+     :flex-direction "row")
 
-    (".nav-bar-left p"
-     :margin 2)
+    (".title-container p"
+     :margin "0px")
 
     (.title-container
-     :display  "flex"
-     :color ,*background-colour-black*
-     :padding-bottom "15px"
-     :flex-direction "column")
+     :gap "5px"
+     :color ,*background-colour-black*)
+
     
     (.nav-bar-right
      :flex "1")
@@ -107,8 +105,8 @@
      :flex-direction "row")
     
     (".nav-bar p"
-     :position "relative"
-     :top "8px")
+     :position "relative")
+
     
     (.purple-box
      :width "1000px"
